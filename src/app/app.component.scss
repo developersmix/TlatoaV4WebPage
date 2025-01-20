@@ -1,0 +1,290 @@
+.navbar {
+    //background-color: rgb(247, 247, 247);
+    //background-color: #333333;
+    background-color: #ebebeb;
+    padding: 10px 20px 10px 20px;
+}
+
+.img-logo {
+    width: 80%;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+.presentation {
+    background-image: linear-gradient(to right, rgb(84, 142, 197), rgb(224, 245, 245));
+    padding: 50px 0px 50px 50px;
+}
+
+.title {
+    color: white;
+    font-size: 60px;
+    font-weight: 550;
+}
+
+.description {
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.topic-title {
+    font-size: 40px;
+    font-weight: 550;
+}
+
+.topic-description {
+    font-size: 26px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.container {
+    max-width: 70%;
+}
+
+.row.banner {
+    margin: 50px 0px 50px 0px;
+}
+
+.img-banner {
+    width: 70%;
+}
+
+.play-store-logo {
+    margin-top: 60px;
+    width: 30%;
+}
+
+.col.img {
+    margin: 0px;
+    padding: 0px;
+}
+
+.img-topic {
+    width: 100%;
+}
+
+.row.element {
+    margin-top: 100px;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+
+    .img-logo {
+        width: 60%;
+    }
+
+    .presentation {
+        padding: 5px;
+    }
+
+    .title,
+    .topic-title {
+        font-size: 36px;
+    }
+
+    .description,
+    .topic-description {
+        font-size: 28px;
+    }
+
+    .img-banner {
+        width: 100%;
+    }
+
+    .play-store-logo {
+        margin-top: 60px;
+        width: 40%;
+    }
+
+    .container {
+        margin: 10px;
+        min-width: 90%;
+    }
+
+    .social-icons>a {
+        font-size: 12px;
+        padding: 5px;
+        text-align: center;
+        vertical-align: middle;
+
+        i {
+            width: 18px;
+        }
+    }
+
+    input,
+    textarea,
+    #button_submit {
+        font-size: 12px;
+    }
+
+}
+
+@media only screen and (min-width: 200px) and (max-width: 600px) {
+
+    .img-logo {
+        width: 40%;
+    }
+
+    .presentation {
+        padding: 5px;
+    }
+
+    .title,
+    .topic-title {
+        font-size: 20px;
+    }
+
+    .description,
+    .topic-description {
+        font-size: 14px;
+    }
+
+    .img-banner {
+        width: 100%;
+    }
+
+    .play-store-logo {
+        margin-top: 60px;
+        width: 40%;
+    }
+
+    .container {
+        margin: 10px;
+        min-width: 90%;
+    }
+
+    .social-icons>a {
+        font-size: 12px;
+        padding: 5px;
+        text-align: center;
+        vertical-align: middle;
+
+        i {
+            width: 18px;
+        }
+    }
+
+    input,
+    textarea,
+    #button_submit {
+        font-size: 12px;
+    }
+
+}
+
+// ********** FOOTER **********
+#footer {
+    background: #fef8f5;
+    color: #212529;
+    font-size: 14px;
+    margin-top: 10%;
+}
+
+#footer .footer-top {
+    margin: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#footer .footer-bottom {
+    background: #212529;
+    color: #fef8f5;
+    height: 60px;
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.topic-description {
+    text-align: justify;
+}
+
+.space {
+    height: 40px;
+}
+
+// ********** PORTAFOLIO **********
+  
+.row.portfolio-container {
+    margin-bottom: 20px;
+
+    .portfolio-item {
+        display: grid;
+        justify-content: center;
+    }
+
+    .portfolio-item img {
+        max-width: 150px;
+        opacity: 0.5;
+    }
+
+    .portfolio-wrap {
+        border-radius: 8px;
+        max-width: 200px;
+        overflow: hidden;
+        position: relative;
+        transition: 0.3s;
+        z-index: 1;
+    }
+
+    .portfolio-links {
+        left: 0;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        top: calc(70%);
+        z-index: 1;
+    }
+    
+    .portfolio-links a {
+        background-color: #fff;
+        border-radius: 10px;
+        color: #eb5d1e;
+        display: inline-block;
+        height: 40px;
+        line-height: 0;
+        margin: 0 4px;
+        padding-right: 1px;
+        padding-top: 10px;
+        text-align: center;
+        width: 40px;
+    }
+
+    .portfolio-info {
+        left: 0;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        top: calc(10%);
+        z-index: 1;
+    }
+
+    .portfolio-info h4 {
+        font-size: 20px;
+        color: rgb(70, 54, 54);
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 575px) {
+
+    #footer .copyright,
+    #footer .credits {
+        float: none;
+        -moz-text-align-last: center;
+        text-align-last: center;
+        padding: 3px 0;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+    #footer .footer-bottom {
+        height: 60px;
+        padding-top: 10px;
+    }
+}
