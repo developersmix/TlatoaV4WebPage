@@ -1,3 +1,5 @@
+// ********** NAVBAR **********
+
 .navbar {
     //background-color: rgb(247, 247, 247);
     //background-color: #333333;
@@ -13,19 +15,23 @@
     font-size: 20px;
 }
 
+// ********** BANNER **********
+
 .presentation {
-    background-image: linear-gradient(to right, rgb(84, 142, 197), rgb(224, 245, 245));
+    //background-image: linear-gradient(to right, rgb(84, 142, 197), rgb(224, 245, 245));
+    //background-image: linear-gradient(to right, rgb(49, 49, 49), rgb(224, 245, 245));
+    background-color: rgb(100, 100, 100);
     padding: 50px 0px 50px 50px;
 }
 
 .title {
-    color: white;
+    color: rgb(253, 255, 243);
     font-size: 60px;
     font-weight: 550;
 }
 
 .description {
-    color: white;
+    color: rgb(253, 255, 243);
     font-size: 40px;
     font-weight: 500;
 }
@@ -41,10 +47,6 @@
     text-align: justify;
 }
 
-.container {
-    max-width: 70%;
-}
-
 .row.banner {
     margin: 50px 0px 50px 0px;
 }
@@ -54,21 +56,20 @@
 }
 
 .play-store-logo {
-    margin-top: 60px;
+    margin: 60px 0px 60px 0px;
     width: 30%;
 }
 
-.col.img {
-    margin: 0px;
-    padding: 0px;
+.policy-privacy {
+    color: rgb(253, 255, 243);
+    font-size: x-large;
+    text-align: center;
 }
 
-.img-topic {
-    width: 100%;
-}
-
-.row.element {
-    margin-top: 100px;
+.ref-policy-privacy {
+    color: rgb(253, 255, 243);
+    font-size: x-large;
+    font-weight: bold;
 }
 
 @media only screen and (min-width: 601px) and (max-width: 900px) {
@@ -99,12 +100,12 @@
         margin-top: 60px;
         width: 40%;
     }
-
+    /*
     .container {
         margin: 10px;
         min-width: 90%;
     }
-
+    */
     .social-icons>a {
         font-size: 12px;
         padding: 5px;
@@ -152,12 +153,12 @@
         margin-top: 60px;
         width: 40%;
     }
-
+    /*
     .container {
         margin: 10px;
         min-width: 90%;
     }
-
+    */
     .social-icons>a {
         font-size: 12px;
         padding: 5px;
@@ -177,7 +178,47 @@
 
 }
 
+// ********** SECTION **********
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section {
+    border-radius: 15px;
+    margin-bottom: 40px;
+    opacity: 0;
+    will-change: transform, opacity;
+}
+
+.row.element {
+    padding: 10px;
+}
+
+.col.img {
+    margin: 0px;
+}
+
+.img-topic {
+    width: 100%;
+}
+
+.fade-section {
+    background-color: #f0f4f8;
+}
+
+.slide-section {
+    background-color: #e6f2ff;
+}
+
+.scale-section {
+    background-color: #f0f9f0;
+}
+
 // ********** FOOTER **********
+
 #footer {
     background: #fef8f5;
     color: #212529;

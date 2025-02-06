@@ -12,6 +12,9 @@
             <img class="play-store-logo" src="assets/images/get_it_on_play_store.png" alt="get_it_on_play_store">
           </a>
         </div>
+        <div class="policy-privacy">
+          Consulta nuestra <a class="ref-policy-privacy" href="https://politica-de-privacidad-tlatoa.developersmix.com/">política de privacidad</a>
+        </div>
       </div>
       <div class="col" id="image-01">
         <img class="img-banner" src="assets/images/00.png" alt="00">
@@ -20,13 +23,14 @@
   </div>
 </section>
 
-<section id="details">
-  <div class="container">
+<div class="container"></div>
 
+<div class="container">
+  <section #animatedSection [@fadeInOut]="sectionStates[0] || 'hidden'" class="section fade-section">
     <div class="row element">
       <div class="col-7 col-text">
         <div class="topic-title">Traduce y guarda</div>
-        <div class="topic-description">Traduce frases cortas para 78 lenguajes disponibles.</div>
+        <div class="topic-description">Traduce frases cortas para 77 lenguajes disponibles.</div>
         <div class="topic-description">Escucha la pronunciación aproximada con Text To Speech (TTS) eligiendo entre
           distintas voces.</div>
         <div class="topic-description">Guarda y mantén disponible tu nuevo vocabulario.</div>
@@ -36,7 +40,9 @@
         <img class="img-topic" src="assets/images/01.png" alt="01">
       </div>
     </div>
+  </section>
 
+  <section #animatedSection [@slideInFromLeft]="sectionStates[1] || 'hidden'" class="section slide-section">
     <div class="row element">
       <div class="col img">
         <img class="img-topic" src="assets/images/02.png" alt="02">
@@ -45,43 +51,50 @@
       <div class="col-7">
         <div class="topic-title">Crea colecciones</div>
         <div class="topic-description">Guarda separando por temas y/o idiomas creando tus propias colecciones.</div>
-        <div class="topic-description">Utiliza las colecciones sugeridas para conocer la app.</div>
+        <div class="topic-description">Utiliza las colecciones sugeridas para conocer tu app.</div>
         <div class="topic-description">Edita y revisa los elementos de tus colecciones para adecuarlos a tu contexto de
           estudio.</div>
       </div>
     </div>
+  </section>
 
+  <section #animatedSection [@scaleUp]="sectionStates[2] || 'hidden'" class="section scale-section">
     <div class="row element">
-      <div class="col-7">
+      <div class="col-6">
         <div class="topic-title">Memoriza jugando</div>
         <div class="topic-description">Utiliza los 4 juegos disponibles para apoyarte en tu proceso de aprendizaje.
         </div>
-        <div class="topic-description">Jugar combinando te dará otro nivel de dificultad.</div>
+        <div class="topic-description">Jugar combinando idiomas te dará otro nivel de dificultad.</div>
       </div>
       <div class="col-1"></div>
       <div class="col img">
-        <img class="img-topic" src="assets/images/03.png" alt="04">
+        <img class="img-topic" src="assets/images/03.png" alt="03">
       </div>  
     </div>
-
+  </section>
+  
+  <section #animatedSection [@fadeInOut]="sectionStates[3] || 'hidden'" class="section fade-section">
     <div class="row element">
       <div class="col img">
-        <img class="img-topic" src="assets/images/04.png" alt="04">
+        <img class="img-topic" src="assets/images/04.png" alt="04" width="100%">
       </div>
       <div class="col-1"></div>
       <div class="col-7">
         <div class="topic-title">Revisa tu progreso</div>
-        <div class="topic-description">La practica habitual se refleja en acumulación de puntos e incremeto de nivel.
+        <div class="topic-description">Revisa tu desempeño mensual y mantente constante.
         </div>
         <div class="topic-description">El vocabulario menos memorizado será el que tenga la prioridad para ser
           estudiado.</div>
       </div>
     </div>
+  </section>
 
+  <section #animatedSection [@fadeInOut]="sectionStates[4] || 'hidden'" class="section slide-section">
     <div class="row element">
-      <div class="col-8">
+      <div class="col-7">
         <div class="topic-title">Personaliza</div>
-        <div class="topic-description">Aplicación disponible en Español e Inglés.</div>
+        <div class="topic-description">4 colores distintos para personalizar tu app.</div>
+        <div class="topic-description">Aplicación disponible en Español, Inglés y Tailandés.</div>
         <div class="topic-description">Comparte, exporta e importa una colección particular o todas tus colecciones.</div>
       </div>
       <div class="col-1"></div>
@@ -89,30 +102,34 @@
         <img class="img-topic" src="assets/images/05.png" alt="05" width="100%">
       </div>
     </div>
+  </section>
 
+  <section #animatedSection [@slideInFromLeft]="sectionStates[5] || 'hidden'" class="section scale-section">
     <div class="row element">
       <div class="col img">
-        <img class="img-topic" src="assets/images/06.png" alt="05" width="100%">
+        <img class="img-topic" src="assets/images/06.png" alt="06" width="100%">
       </div>
       <div class="col-1"></div>
-      <div class="col-7">
+      <div class="col-9">
         <div class="topic-title">Guarda tu progreso</div>
         <div class="topic-description">
-          Vincula la aplicación con tu cuenta de Google y conserva un respaldo de tus colecciones en tu Google Drive.
+          Vincula la aplicación con tu cuenta de Google y conserva un respaldo de tus colecciones.
         </div>
         <div class="topic-description">
-          Tlatoa utiliza tu dirección de correo electrónico y recaba información acerca del uso de la misma para crear una comunidad de usuarios.
+          Con tu cuenta vinculada puedes acceder a tus colecciones desde varios dispositivos.
         </div>
         <div class="topic-description">
-          Puedes eliminar en cualquier momento tu cuenta utilizando la aplicación o desde la Administración de tu cuenta de Google.
-        </div>
-        <div class="topic-description">
-          Consulta nuestra <a href="https://politica-de-privacidad-tlatoa.developersmix.com/">política de privacidad</a>
+          Puedes eliminar tu cuenta en el momento que tú decidas.
         </div>
       </div>
     </div>
+  </section>
 
-    <!--
+</div>
+
+<!--
+<section id="details">
+  <div class="container">
     <div class="space"></div>
 
     <div class="row element">
@@ -134,9 +151,10 @@
         </div>
       </div>
     </div>
-     -->
+     
   </div>
 </section>
+-->
 
 <!-- FOOTER -->
 <footer id="footer">
