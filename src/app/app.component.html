@@ -62,7 +62,7 @@
     <div class="row element">
       <div class="col-6">
         <div class="topic-title">Memoriza jugando</div>
-        <div class="topic-description">Utiliza los 4 juegos disponibles para apoyarte en tu proceso de aprendizaje.
+        <div class="topic-description">Utiliza los 5 juegos disponibles para apoyarte en tu proceso de aprendizaje.
         </div>
         <div class="topic-description">Jugar combinando idiomas te dará otro nivel de dificultad.</div>
       </div>
@@ -72,7 +72,7 @@
       </div>  
     </div>
   </section>
-  
+
   <section #animatedSection [@fadeInOut]="sectionStates[3] || 'hidden'" class="section fade-section">
     <div class="row element">
       <div class="col img">
@@ -80,11 +80,10 @@
       </div>
       <div class="col-1"></div>
       <div class="col-7">
-        <div class="topic-title">Revisa tu progreso</div>
-        <div class="topic-description">Revisa tu desempeño mensual y mantente constante.
+        <div class="topic-title">Practica con IA</div>
+        <div class="topic-description">
+          Crea breves conversaciones con tu vocabulario agregado utilizando inteligencia artificial.
         </div>
-        <div class="topic-description">El vocabulario menos memorizado será el que tenga la prioridad para ser
-          estudiado.</div>
       </div>
     </div>
   </section>
@@ -92,10 +91,9 @@
   <section #animatedSection [@fadeInOut]="sectionStates[4] || 'hidden'" class="section slide-section">
     <div class="row element">
       <div class="col-7">
-        <div class="topic-title">Personaliza</div>
-        <div class="topic-description">4 colores distintos para personalizar tu app.</div>
-        <div class="topic-description">Aplicación disponible en Español, Inglés y Tailandés.</div>
-        <div class="topic-description">Comparte, exporta e importa una colección particular o todas tus colecciones.</div>
+        <div class="topic-title">Revisa tu progreso</div>
+        <div class="topic-description">Revisa tu desempeño mensual y mantente constante.</div>
+        <div class="topic-description">El vocabulario menos memorizado será el que tenga la prioridad para ser estudiado.</div>
       </div>
       <div class="col-1"></div>
       <div class="col img">
@@ -110,7 +108,17 @@
         <img class="img-topic" src="assets/images/06.png" alt="06" width="100%">
       </div>
       <div class="col-1"></div>
-      <div class="col-9">
+      <div class="col-8">
+        <div class="topic-title">Personaliza</div>
+        <div class="topic-description">Aplicación disponible en Español, Inglés y Tailandés.</div>
+        <div class="topic-description">Comparte, exporta e importa una colección particular o todas tus colecciones.</div>
+      </div>
+    </div>
+  </section>
+
+  <section #animatedSection [@fadeInOut]="sectionStates[6] || 'hidden'" class="section fade-section">
+    <div class="row element">
+      <div class="col-9 col-text">
         <div class="topic-title">Guarda tu progreso</div>
         <div class="topic-description">
           Vincula la aplicación con tu cuenta de Google y conserva un respaldo de tus colecciones.
@@ -122,39 +130,13 @@
           Puedes eliminar tu cuenta en el momento que tú decidas.
         </div>
       </div>
-    </div>
-  </section>
-
-</div>
-
-<!--
-<section id="details">
-  <div class="container">
-    <div class="space"></div>
-
-    <div class="row element">
-      <div class="col text-center">
-        <div class="topic-title">Prueba la aplicación</div>
-        <div class="row portfolio-container">
-          <div class="col portfolio-item text-center">
-            <div class="portfolio-wrap">
-              <img src="assets/images/tlatoa.png" class="img-fluid" alt="Tlatoa">
-              <div class="portfolio-info">
-                  <h4>Tlatoa</h4>
-              </div>
-              <div class="portfolio-links">
-                  <a href="https://play.google.com/store/apps/details?id=com.developersmix.tlatoa"><i class="pi pi-android"></i></a>
-                  <a href="http://tlatoawebapp.developersmix.com"><i class="pi pi-globe"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="col-1"></div>
+      <div class="col img">
+        <img class="img-topic" src="assets/images/07.png" alt="01">
       </div>
     </div>
-     
-  </div>
-</section>
--->
+  </section>
+</div>
 
 <!-- FOOTER -->
 <footer id="footer">
