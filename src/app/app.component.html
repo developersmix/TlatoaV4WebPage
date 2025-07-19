@@ -80,20 +80,24 @@
       </div>
       <div class="col-1"></div>
       <div class="col-7">
-        <div class="topic-title">Practica con IA</div>
+        <div class="topic-title">Memoriza con flashcards</div>
         <div class="topic-description">
-          Crea breves conversaciones con tu vocabulario agregado utilizando inteligencia artificial.
+          Revisa el vocabulario de tus colecciones con flashcards
+        </div>
+        <div class="topic-description">
+          Puedes filtrar por prioridad para enfocarte en los elementos más importantes.
         </div>
       </div>
     </div>
   </section>
 
-  <section #animatedSection [@fadeInOut]="sectionStates[4] || 'hidden'" class="section slide-section">
+  <section #animatedSection [@fadeInOut]="sectionStates[3] || 'hidden'" class="section fade-section">
     <div class="row element">
       <div class="col-7">
-        <div class="topic-title">Revisa tu progreso</div>
-        <div class="topic-description">Revisa tu desempeño mensual y mantente constante.</div>
-        <div class="topic-description">El vocabulario menos memorizado será el que tenga la prioridad para ser estudiado.</div>
+        <div class="topic-title">Practica con IA</div>
+        <div class="topic-description">
+          Crea breves conversaciones con tu vocabulario agregado utilizando inteligencia artificial.
+        </div>
       </div>
       <div class="col-1"></div>
       <div class="col img">
@@ -102,22 +106,40 @@
     </div>
   </section>
 
-  <section #animatedSection [@slideInFromLeft]="sectionStates[5] || 'hidden'" class="section scale-section">
+  <section #animatedSection [@fadeInOut]="sectionStates[4] || 'hidden'" class="section slide-section">
     <div class="row element">
       <div class="col img">
         <img class="img-topic" src="assets/images/06.png" alt="06" width="100%">
       </div>
       <div class="col-1"></div>
+      <div class="col-7">
+        <div class="topic-title">Revisa tu progreso</div>
+        <div class="topic-description">Revisa tu desempeño mensual y mantente constante.</div>
+        <div class="topic-description">El vocabulario menos memorizado será el que tenga la prioridad para ser estudiado.</div>
+      </div>
+    </div>
+  </section>
+
+  <section #animatedSection [@slideInFromLeft]="sectionStates[5] || 'hidden'" class="section scale-section">
+    <div class="row element">
       <div class="col-8">
         <div class="topic-title">Personaliza</div>
         <div class="topic-description">Aplicación disponible en Español, Inglés y Tailandés.</div>
         <div class="topic-description">Comparte, exporta e importa una colección particular o todas tus colecciones.</div>
+      </div>
+      <div class="col-1"></div>
+      <div class="col img">
+        <img class="img-topic" src="assets/images/07.png" alt="07" width="100%">
       </div>
     </div>
   </section>
 
   <section #animatedSection [@fadeInOut]="sectionStates[6] || 'hidden'" class="section fade-section">
     <div class="row element">
+      <div class="col img">
+        <img class="img-topic" src="assets/images/08.png" alt="08">
+      </div>
+      <div class="col-1"></div>
       <div class="col-9 col-text">
         <div class="topic-title">Guarda tu progreso</div>
         <div class="topic-description">
@@ -129,10 +151,6 @@
         <div class="topic-description">
           Puedes eliminar tu cuenta en el momento que tú decidas.
         </div>
-      </div>
-      <div class="col-1"></div>
-      <div class="col img">
-        <img class="img-topic" src="assets/images/07.png" alt="01">
       </div>
     </div>
   </section>
